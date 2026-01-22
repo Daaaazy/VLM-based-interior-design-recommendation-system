@@ -313,10 +313,11 @@
         const keywordsContainer = document.getElementById('keywordsContainer');
         const previewImage = document.getElementById('previewImage');
 
-        // QR Code Logic
-        const qrModal = document.getElementById('qrModal');
-        const LAN_IP = "10.0.0.214"; 
-        const MOBILE_URL = `http://${LAN_IP}:8000`;
+        // In production, the URL is just the domain
+        // For local dev with QR code, we still want the IP
+        const hostname = window.location.hostname;
+        const port = window.location.port ? `:${window.location.port}` : '';
+        const MOBILE_URL = `${window.location.protocol}//${hostname}${port}`;
         
         new QRCode(document.getElementById("qrcode"), {
             text: MOBILE_URL,
@@ -367,11 +368,10 @@
             formData.append('file', file);
 
             try {
-                // Determine API Host
-                const hostname = window.location.hostname;
-                const apiHost = hostname === 'localhost' ? '127.0.0.1' : hostname;
-                
-                const response = await fetch(`http://${apiHost}:5001/analyze`, {
+                // In production (same origin), we can use relative path or just /analyze
+                // But for development (if running separate servers), logic is needed
+                // Simplified for single-service deployment:
+                const response = await fetch('/analyze', {
                     method: 'POST',
                     body: formData
                 });

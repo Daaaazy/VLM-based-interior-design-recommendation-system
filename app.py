@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import google.generativeai as genai
 import PIL.Image
@@ -13,7 +13,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Configure Gemini API Key
-API_KEY = "YOUR_API_KEY_HERE"
+API_KEY = "AIzaSyAU31UpPEw6MNOwNLZZuyfMdimertp5A40"
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-2.0-flash')
 
@@ -166,6 +166,10 @@ def analyze():
         import traceback
         traceback.print_exc()
         return jsonify({"error": str(e)}), 500
+
+@app.route('/')
+def home():
+    return send_from_directory('.', 'index.html')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True, port=5001)
