@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Moroccan Diamond Rug",
+        "category": "Rugs",
+        "style": "Industrial",
+        "description": "A beautiful industrial style moroccan diamond rug that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 129.99,
+        "image_url": "https://loremflickr.com/400/300/Rug?random=9345"
+    },
+    {
+        "id": 2,
+        "name": "Vintage Distressed Area Rug",
+        "category": "Rugs",
+        "style": "Farmhouse",
+        "description": "A beautiful farmhouse style vintage distressed area rug that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 199.5,
+        "image_url": "https://loremflickr.com/400/300/Rug?random=3677"
+    },
+    {
+        "id": 3,
+        "name": "Faux Fur Sheepskin Rug",
+        "category": "Rugs",
+        "style": "Contemporary",
+        "description": "A beautiful contemporary style faux fur sheepskin rug that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 45.0,
+        "image_url": "https://loremflickr.com/400/300/Rug?random=777"
+    },
+    {
+        "id": 4,
+        "name": "Jute Braided Runner",
+        "category": "Rugs",
+        "style": "Scandi",
+        "description": "A beautiful scandi style jute braided runner that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 55.99,
+        "image_url": "https://loremflickr.com/400/300/Runner?random=3510"
+    },
+    {
+        "id": 5,
+        "name": "Industrial Tripod Floor Lamp",
+        "category": "Lamps",
+        "style": "Scandi",
+        "description": "A beautiful scandi style industrial tripod floor lamp that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 149.99,
+        "image_url": "https://loremflickr.com/400/300/Lamp?random=3450"
+    },
+    {
+        "id": 6,
+        "name": "Modern Ceramic Table Lamp",
+        "category": "Lamps",
+        "style": "Farmhouse",
+        "description": "A beautiful farmhouse style modern ceramic table lamp that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 65.0,
+        "image_url": "https://loremflickr.com/400/300/Lamp?random=8276"
+    },
+    {
+        "id": 7,
+        "name": "Geometric Pendant Light",
+        "category": "Lamps",
+        "style": "Modern",
+        "description": "A beautiful modern style geometric pendant light that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 89.99,
+        "image_url": "https://loremflickr.com/400/300/Light?random=6437"
+    },
+    {
+        "id": 8,
+        "name": "Adjustable Desk Lamp",
+        "category": "Lamps",
+        "style": "Scandi",
+        "description": "A beautiful scandi style adjustable desk lamp that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 42.5,
+        "image_url": "https://loremflickr.com/400/300/Lamp?random=4722"
+    },
+    {
+        "id": 9,
+        "name": "Velvet Accent Armchair",
+        "category": "Chairs",
+        "style": "Contemporary",
+        "description": "A beautiful contemporary style velvet accent armchair that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 299.0,
+        "image_url": "https://loremflickr.com/400/300/Armchair?random=5803"
+    },
+    {
+        "id": 10,
+        "name": "Mid-Century Dining Chair",
+        "category": "Chairs",
+        "style": "Contemporary",
+        "description": "A beautiful contemporary style mid-century dining chair that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 110.0,
+        "image_url": "https://loremflickr.com/400/300/Chair?random=285"
+    },
+    {
+        "id": 11,
+        "name": "Leather Recliner",
+        "category": "Chairs",
+        "style": "Rustic",
+        "description": "A beautiful rustic style leather recliner that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 450.0,
+        "image_url": "https://loremflickr.com/400/300/Recliner?random=3474"
+    },
+    {
+        "id": 12,
+        "name": "Rattan Lounge Chair",
+        "category": "Chairs",
+        "style": "Modern",
+        "description": "A beautiful modern style rattan lounge chair that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 185.0,
+        "image_url": "https://loremflickr.com/400/300/Chair?random=8432"
+    },
+    {
+        "id": 13,
+        "name": "Abstract Canvas Print",
+        "category": "Wall Art",
+        "style": "Rustic",
+        "description": "A beautiful rustic style abstract canvas print that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 75.0,
+        "image_url": "https://loremflickr.com/400/300/Print?random=155"
+    },
+    {
+        "id": 14,
+        "name": "Botanical Framed Set",
+        "category": "Wall Art",
+        "style": "Traditional",
+        "description": "A beautiful traditional style botanical framed set that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 120.0,
+        "image_url": "https://loremflickr.com/400/300/Set?random=5290"
+    },
+    {
+        "id": 15,
+        "name": "Minimalist Line Drawing",
+        "category": "Wall Art",
+        "style": "Farmhouse",
+        "description": "A beautiful farmhouse style minimalist line drawing that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 45.0,
+        "image_url": "https://loremflickr.com/400/300/Drawing?random=6044"
+    },
+    {
+        "id": 16,
+        "name": "Coastal Landscape Photo",
+        "category": "Wall Art",
+        "style": "Traditional",
+        "description": "A beautiful traditional style coastal landscape photo that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 85.0,
+        "image_url": "https://loremflickr.com/400/300/Photo?random=8876"
+    },
+    {
+        "id": 17,
+        "name": "Boho Tassel Throw Pillow",
+        "category": "Pillows",
+        "style": "Scandi",
+        "description": "A beautiful scandi style boho tassel throw pillow that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 35.0,
+        "image_url": "https://loremflickr.com/400/300/Pillow?random=38"
+    },
+    {
+        "id": 18,
+        "name": "Velvet Lumbar Cushion",
+        "category": "Pillows",
+        "style": "Bohemian",
+        "description": "A beautiful bohemian style velvet lumbar cushion that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 28.5,
+        "image_url": "https://loremflickr.com/400/300/Cushion?random=5624"
+    },
+    {
+        "id": 19,
+        "name": "Geometric Print Pillow",
+        "category": "Pillows",
+        "style": "Modern",
+        "description": "A beautiful modern style geometric print pillow that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 32.0,
+        "image_url": "https://loremflickr.com/400/300/Pillow?random=1218"
+    },
+    {
+        "id": 20,
+        "name": "Knitted Cotton Pillow",
+        "category": "Pillows",
+        "style": "Industrial",
+        "description": "A beautiful industrial style knitted cotton pillow that adds character to any room. Perfect for upgrading your home decor.",
+        "price": 40.0,
+        "image_url": "https://loremflickr.com/400/300/Pillow?random=2581"
+    }
+]
